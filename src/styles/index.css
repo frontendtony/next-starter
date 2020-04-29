@@ -1,0 +1,20 @@
+/* This provides some nice defaults to override browser styles for consistency */
+@tailwind base;
+
+/* Uncomment this if you need tailwind components */
+/* @tailwind components; */
+
+/* All the fun things start here */
+@tailwind utilities;
+
+* {
+  /*
+    Don't have to always explicitly make a parent relative when I want to
+    absolutely position an element. No harm in just making everything relative
+  */
+  position: relative;
+}
+
+html {
+  font-family: Museo-Sans, 'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+}
