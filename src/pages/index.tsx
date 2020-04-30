@@ -7,8 +7,8 @@ function Home() {
         Welcome to your app
       </h1>
       <p className="text-center text-gray-600 max-w-2xl">
-        This starter exists to give provide an easy way to bootstrap a Nextjs project with the
-        following technologies configured out of the box
+        This starter exists to provide an easy way to bootstrap a Nextjs project with the following
+        technologies configured out of the box
       </p>
       <div className="md:flex flex-col md:flex-row md:justify-center -mx-3 mt-16 w-full">
         <a
